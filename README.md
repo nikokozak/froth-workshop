@@ -1,22 +1,18 @@
-# Frothy Workshop
+# Froth Workshop Starter
 
-This is the tiny public workshop starter for the preflashed `esp32-devkit-v4-game-board`.
+This is the tiny public workshop starter for preflashed Froth workshop boards.
 
 Files:
 
-- `pong.frothy`: editable Pong overlay and starter example
+- `starter.froth`: editable workshop starter scaffold
+
+The board carries the workshop helper surface and recovery behavior; attendees edit and send `starter.froth` as their own overlay.
 
 Workflow:
 
-1. Install the `frothy` CLI.
-2. Install the Frothy VS Code extension.
+1. Install the `froth` CLI.
+2. Install the Froth VS Code extension.
 3. Plug in the preflashed `esp32-devkit-v4-game-board`.
-4. Open `pong.frothy`.
+4. Open `starter.froth`.
 5. Send or edit it live.
 6. Use `save`, `restore`, and `dangerous.wipe` as needed.
-
-The canonical source for `pong.frothy` lives in the main Frothy repo at:
-
-- `boards/esp32-devkit-v4-game-board/lib/base.frothy`
-
-That keeps the shipped demo board and the workshop overlay aligned.
